@@ -24,8 +24,4 @@ app.get("/", (_req, res) => {
   res.send("API is running 🚀");
 });
 
-<<<<<<< HEAD
 export default app;
-=======
-export default app;
->>>>>>> 038d29b7c025044669326c8d9d5b262c9d06317e

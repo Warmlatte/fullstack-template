@@ -38,8 +38,4 @@ export const errorMiddleware = (err, req, res, next) => {
     message: "伺服器內部錯誤",
     data: err.message,
   });
-<<<<<<< HEAD
 };
-=======
-};
->>>>>>> 038d29b7c025044669326c8d9d5b262c9d06317e
