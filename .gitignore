@@ -1,0 +1,45 @@
+# Claude Code 專案配置檔案 - 不上傳
+CLAUDE.md
+
+# 環境變數檔案 - 包含敏感資訊
+.env
+.env.local
+.env.development
+.env.production
+
+# 依賴資料夾
+node_modules/
+*/node_modules/
+
+# 建構輸出
+dist/
+build/
+*/dist/
+*/build/
+
+# IDE 設定檔案
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系統檔案
+.DS_Store
+Thumbs.db
+
+# 日誌檔案
+*.log
+logs/
+
+# 暫存檔案
+*.tmp
+*.temp
+.cache/
+
+# 測試覆蓋率報告
+coverage/
+*/coverage/
+
+# Prisma
+.env
+prisma/.env
