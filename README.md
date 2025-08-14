@@ -45,11 +45,7 @@ fullstack-template/
 ### 1️⃣ 克隆專案
 
 ```bash
-<<<<<<< HEAD
 git clone https://github.com/your-username/fullstack-template.git
-=======
-git clone https://github.com/Warmlatte/fullstack-template.git
->>>>>>> 038d29b7c025044669326c8d9d5b262c9d06317e
 cd fullstack-template
 ```
 
@@ -73,20 +69,12 @@ cp .env.example .env
 ### .env 範例：
 *前端*
 ```env
-<<<<<<< HEAD
-VITE_API_BASE_URL=http://localhost:5000/
-=======
-VITE_API_BASE_URL=http://localhost:5173/
->>>>>>> 038d29b7c025044669326c8d9d5b262c9d06317e
+VITE_API_BASE_URL=http://localhost:3000/
 ```
 
 *後端*
 ```env
-<<<<<<< HEAD
-PORT=5000
-=======
 PORT=3000
->>>>>>> 038d29b7c025044669326c8d9d5b262c9d06317e
 DATABASE_URL="mysql://USER:PASSWORD@HOST:PORT/DATABASE_NAME"
 ```
 >💡 注意：DATABASE_URL 尚未初始化 Prisma，請根據專案需求調整資料庫連線字串。
@@ -103,9 +91,6 @@ npx prisma init
 ```bash
 npx prisma migrate dev --name init
 npx prisma generate
-<<<<<<< HEAD
-```
-=======
 ```
 
 ## 🚀 開發指令
@@ -134,4 +119,3 @@ npm start      # 啟動生產伺服器
 ---
 
 **✨ 使用 Claude Code 管理和開發 - https://claude.ai/code**
->>>>>>> 038d29b7c025044669326c8d9d5b262c9d06317e

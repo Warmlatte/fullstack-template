@@ -11,8 +11,4 @@ export default mergeConfig(
       root: fileURLToPath(new URL('./', import.meta.url)),
     },
   }),
-<<<<<<< HEAD
 )
-=======
-)
->>>>>>> 038d29b7c025044669326c8d9d5b262c9d06317e
